@@ -1,0 +1,53 @@
+.navbar {
+    position: absolute; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    background-color: transparent; 
+    z-index: 2;
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    
+}
+hr {
+    color: grey;
+}
+.icon-container {
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.turq {
+    background-color: turquoise;
+}
+
+.btn-primary {
+    background-color: turquoise;
+    border-color: turquoise;
+}
+footer {
+    background-color: turquoise;
+    color: white;
+}
+.footer-icon {
+    padding: 0.5rem; /* Añade relleno dentro de cada contenedor de ícono */
+    display: inline-block; /* Asegura que los contenedores se alineen horizontalmente */
+    background-color: turquoise; /* Cambia al color que prefieras */
+    margin-right: 0.5rem; /* Añade margen a la derecha de cada ícono */
+    border-radius: 5px; /* Opcional: añade bordes redondeados al contenedor del ícono */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
